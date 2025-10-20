@@ -6,13 +6,16 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="nlogoN5.png" />
+    <script src="main.js"></script>
   </head>
+
   <body>
     <div class="header">
       <img class="icon" src="icon.jpg" alt="icon" />
       <img class="arrow" src="arrow.png" alt="arrow" />
       <img class="logo" src="netflix-2-logo.svg" alt="Netflix Logo" />
       <img class="squidgamelogo" src="squidgamelogo2.png" alt="" />
+
       <ul class="nav-list">
         <li><a href="#">Strona główna</a></li>
         <li><a href="#">Serial</a></li>
@@ -22,16 +25,58 @@
         <li><a href="#">Moja lista</a></li>
         <li><a href="#">Przeglądaj wg języka</a></li>
       </ul>
+
+      <div class="arrowdonemenu" id="smallmainMenu" aria-hidden="true">
+        <ul>
+          <li>
+            <a class="move" href="#">
+              <img class="iconmenu" src="icon.jpg" alt="icon" />
+              User
+            </a>
+          </li>
+          <li>
+            <a class="move" href="#">
+              <img class="pencil" src="pencil-svgrepo-com.svg" alt="pencil" />
+              Zarządzaj profilami
+            </a>
+          </li>
+          <li>
+            <a class="move" href="#">
+              <img src="transfer.png" alt="" />
+              Przenieś profil
+            </a>
+          </li>
+          <li>
+            <a class="move" href="#">
+              <img class="account" src="account-svgrepo-com (1).svg" alt="" />
+              Konto
+            </a>
+          </li>
+          <li>
+            <a class="move" href="#">
+              <img
+                class="question"
+                src="question-circle-svgrepo-com.svg"
+                alt=""
+              />
+              Centrum pomocy
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+
     <div class="main">
       <div class="squidgame">
         <div class="background"></div>
         <img src="squidgame.jpeg" alt="squidgame" />
       </div>
+
       <button class="odtworz" tabindex="-1" type="button">
         <div class="logoodod" style="width: 1rem"></div>
         <span class="napisodtworz">Odtwórz</span>
       </button>
+
       <button class="info" tabindex="-1" type="button">
         <div class="logoinfo" style="width: 2rem">
           <img src="info-circle-svgrepo-com (1).svg" alt="" />
